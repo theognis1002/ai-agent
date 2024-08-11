@@ -1,6 +1,6 @@
 # AI Agent - Julienne
 
-======================
+---
 
 A simple conversation manager that uses a language model, Deepgram for speech-to-text, and Text-To-Speech to interact with users.
 
@@ -13,13 +13,14 @@ A simple conversation manager that uses a language model, Deepgram for speech-to
 ### How to Use
 
 1. Install the required packages by running `pip install -r requirements.txt`
-2. Run the code using `python conversation_manager.py`
+2. Copy `.env.sample` -> `.env` and set third-party API keys
+3. Run the code using `python main.py`
 
 ### Parameters
 
 - `GROQ_API_KEY` - Your Groq API key
 - `DEEPGRAM_API_KEY` - Your Deepgram API key
-- `sys_prompt.txt` - The system prompt used by the language model
+- `system_prompt.txt` - The system prompt used by the language model
 
 ### Limitations
 
